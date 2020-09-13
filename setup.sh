@@ -41,3 +41,10 @@ sudo dpkg -i notion-desktop_2.0.8-win_amd64.deb
 # ------------------------------------
 curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py -o get-platformio.py
 python3 get-platformio.py
+
+# ------------------------------------
+# Install KiCAD
+# ------------------------------------
+sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases
+sudo apt update
+sudo apt install --install-recommends kicad
