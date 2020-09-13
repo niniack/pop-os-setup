@@ -20,6 +20,8 @@ curl \
 make \
 tlp \
 powertop \
+python3-minimal \
+python3-pip \
 
 # ------------------------------------
 # Install flatpak packages:
